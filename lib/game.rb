@@ -66,6 +66,7 @@ class Game
   end
 
   def turn
+<<<<<<< HEAD
     player = current_player
     current_move = player.move(@board)
     if !@board.valid_move?(current_move)
@@ -89,6 +90,15 @@ class Game
     end
   end
 
+=======
+    puts
+    binding.pry
+    player_1.move
+     # expect(game.player_1).to receive(:gets).and_return("1")
+  end
+
+
+>>>>>>> e02b8da6685bd2e1f69385417f9e641243215dcf
 end
 
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 module Players
   class Computer < Player
     
@@ -12,3 +13,12 @@ module Players
   
   end
 end
+=======
+#module Player
+#  class Computer < Player
+    
+  
+  
+#  end
+#end
+>>>>>>> e02b8da6685bd2e1f69385417f9e641243215dcf
